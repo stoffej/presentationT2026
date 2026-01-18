@@ -1,120 +1,160 @@
 <!doctype html>
 <html lang="sv">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Referenser</title>
-    <meta name="description" content="Referenser och källor till presentationen" />
-    <style>
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
-        background: #282a36;
-        color: #f8f8f2;
-        margin: 0;
-        line-height: 1.6;
-      }
-      main {
-        max-width: 800px;
-        margin: 3rem auto;
-        padding: 0 1.5rem;
-      }
-      h1 {
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-        color: #bd93f9;
-      }
-      ul {
-        padding-left: 1.2rem;
-      }
-      li {
-        margin-bottom: 1.4rem;
-      }
-      .meta {
-        color: #6272a4;
-        font-size: 0.95rem;
-      }
-      a {
-        color: #8be9fd;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-        color: #ff79c6;
-      }
-      strong {
-        color: #50fa7b;
-      }
-      em {
-        color: #ffb86c;
-      }
-      footer {
-        margin-top: 3rem;
-        font-size: 0.85rem;
-        color: #6272a4;
-      }
-    </style>
-  </head>
 
-  <body>
-    <main>
-      <h1>Referenser</h1>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Referenser</title>
+  <meta name="description" content="Referenser och källor till presentationen" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+      background: #282a36;
+      color: #f8f8f2;
+      margin: 0;
+      line-height: 1.6;
+    }
 
-      <ul>
-        <li>
+    main {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #bd93f9;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .book-cover {
+      width: 80px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 4px;
+      flex-shrink: 0;
+      background: #44475a;
+      border: 1px solid #6272a4;
+    }
+
+    .reference-content {
+      flex: 1;
+    }
+
+    .meta {
+      color: #6272a4;
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: #8be9fd;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #ff79c6;
+    }
+
+    strong {
+      color: #50fa7b;
+    }
+
+    em {
+      color: #ffb86c;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #6272a4;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Referenser</h1>
+
+    <ul>
+      <li>
+        <img src="images/arvda-svar.jpg" alt="Ärvda svar - bokomslag" class="book-cover" />
+        <div class="reference-content">
           <strong>Ida Hult</strong> – <em>Ärvda svar</em><br />
           <span class="meta">ISBN: 9789179651107</span>
-        </li>
+        </div>
+      </li>
 
-        <li>
+      <li>
+        <img src="images/i-kundens-skor.jpg" alt="I kundens skor - bokomslag" class="book-cover" />
+        <div class="reference-content">
           <strong>Klas Hallberg &amp; Per Kristensson</strong> – <em>I kundens skor</em><br />
           <span class="meta">ISBN: 9789189043244</span>
-        </li>
+        </div>
+      </li>
 
-        <li>
-          <strong>Klas Hallberg</strong> – <em>YCDBRALAI</em><br />
-          <span class="meta">
-            Föreläsnings- och koncepttitel (ingen ISBN-registrerad bokutgåva)
-          </span>
-        </li>
+      <li>
+        <strong>Klas Hallberg</strong> – <em>YCDBRALAI</em><br />
+        <span class="meta">
+          Föreläsnings- och koncepttitel (ingen ISBN-registrerad bokutgåva)
+        </span>
+      </li>
 
-        <li>
-          <strong>Sunt Arbetsliv</strong> –<br />
-          <a
-            href="https://www.suntarbetsliv.se/artiklar/samverkan/vad-ska-bort-sa-slutar-ni-gora-onodiga-saker/"
-            target="_blank"
-            rel="noopener"
-          >
-            Vad ska bort? Så slutar ni göra onödiga saker
-          </a>
-        </li>
+      <li>
+        <strong>Sunt Arbetsliv</strong> –<br />
+        <a href="https://www.suntarbetsliv.se/artiklar/samverkan/vad-ska-bort-sa-slutar-ni-gora-onodiga-saker/"
+          target="_blank" rel="noopener">
+          Vad ska bort? Så slutar ni göra onödiga saker
+        </a>
+      </li>
 
-        <li>
-          <strong>Öppna Skolplattformen</strong> –<br />
-          <a
-            href="https://github.com/kolplattformen"
-            target="_blank"
-            rel="noopener"
-          >
-            GitHub - Kolplattformen
-          </a>
-        </li>
+      <li>
+        <strong>Öppna Skolplattformen</strong> –<br />
+        <a href="https://github.com/kolplattformen" target="_blank" rel="noopener">
+          GitHub - Kolplattformen
+        </a>
+      </li>
 
-        <li>
-          <strong>IT-säkerhetspodden</strong> –<br />
-          <a
-            href="https://www.itsakerhetspodden.se/125-oppna-skolplattformen/"
-            target="_blank"
-            rel="noopener"
-          >
-            Avsnitt 125 - Öppna Skolplattformen
-          </a>
-        </li>
-      </ul>
+      <li>
+        <strong>IT-säkerhetspodden</strong> –<br />
+        <a href="https://www.itsakerhetspodden.se/125-oppna-skolplattformen/" target="_blank" rel="noopener">
+          Avsnitt 125 - Öppna Skolplattformen
+        </a>
+      </li>
 
-      <footer>
-        <p>Referenser kopplade till presentationen.</p>
-      </footer>
-    </main>
-  </body>
+      <li>
+        <strong>YouTube</strong> –<br />
+        <a href="https://youtu.be/LeUUxLRdvho?si=gNSdIUNwYu6K-XLh" target="_blank" rel="noopener">
+          Relaterad video
+        </a>
+      </li>
+
+      <li>
+        <img src="images/funktionell-dumhet.jpg" alt="Funktionell dumhet - bokomslag" class="book-cover" />
+        <div class="reference-content">
+          <strong>Funktionell dumhet.</strong><br />
+          Ett begrepp från boken <em>Funktionell dumhet</em> av Mats Alvesson och André Spicer.
+          Beskriver hur vi människor och organisationer fastnar i att göra saker utan att ifrågasätta varför.
+        </div>
+      </li>
+    </ul>
+
+    <footer>
+      <p>Referenser kopplade till presentationen.</p>
+    </footer>
+  </main>
+</body>
+
 </html>
